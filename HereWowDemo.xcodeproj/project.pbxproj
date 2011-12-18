@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B39F1A311496F44D00495BBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B39F1A2F1496F44D00495BBB /* InfoPlist.strings */; };
+		B39F1A341496F44D00495BBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B39F1A331496F44D00495BBB /* main.m */; };
+		B39F1A371496F44D00495BBB /* HereWowDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B39F1A361496F44D00495BBB /* HereWowDemoAppDelegate.m */; };
+		B39F1A3A1496F44D00495BBB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B39F1A381496F44D00495BBB /* MainWindow.xib */; };
+		B39F1A3D1496F44D00495BBB /* HereWowDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39F1A3C1496F44D00495BBB /* HereWowDemoViewController.m */; };
+		B39F1A401496F44D00495BBB /* HereWowDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B39F1A3E1496F44D00495BBB /* HereWowDemoViewController.xib */; };
+		B39F1A5214970E2300495BBB /* libUAirship-1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A5114970E2300495BBB /* libUAirship-1.1.1.a */; };
+		B39F1A58149715DB00495BBB /* checkConfig.sh in Resources */ = {isa = PBXBuildFile; fileRef = B39F1A57149715DB00495BBB /* checkConfig.sh */; };
+		B39F1A5A149715F400495BBB /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = B39F1A59149715F400495BBB /* AirshipConfig.plist */; };
+		B39F1A681497162100495BBB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A5B1497162100495BBB /* libz.dylib */; };
+		B39F1A691497162100495BBB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A5C1497162100495BBB /* libsqlite3.dylib */; };
+		B39F1A6A1497162100495BBB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A5D1497162100495BBB /* SystemConfiguration.framework */; };
+		B39F1A6B1497162100495BBB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A5E1497162100495BBB /* MobileCoreServices.framework */; };
+		B39F1A6C1497162100495BBB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A5F1497162100495BBB /* CFNetwork.framework */; };
+		B39F1A6D1497162100495BBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A601497162100495BBB /* UIKit.framework */; };
+		B39F1A6E1497162100495BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A611497162100495BBB /* Foundation.framework */; };
+		B39F1A6F1497162100495BBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A621497162100495BBB /* CoreGraphics.framework */; };
+		B39F1A701497162100495BBB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A631497162100495BBB /* StoreKit.framework */; };
+		B39F1A711497162100495BBB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A641497162100495BBB /* Security.framework */; };
+		B39F1A721497162100495BBB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A651497162100495BBB /* CoreTelephony.framework */; };
+		B39F1A731497162100495BBB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A661497162100495BBB /* AudioToolbox.framework */; };
+		B39F1A741497162100495BBB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F1A671497162100495BBB /* MessageUI.framework */; };
+		B39F1A7A14971A1D00495BBB /* pig.caf in Resources */ = {isa = PBXBuildFile; fileRef = B39F1A7614971A1D00495BBB /* pig.caf */; };
+		B39F1A7B14971A1D00495BBB /* frog.caf in Resources */ = {isa = PBXBuildFile; fileRef = B39F1A7714971A1D00495BBB /* frog.caf */; };
+		B39F1A7C14971A1D00495BBB /* cow.caf in Resources */ = {isa = PBXBuildFile; fileRef = B39F1A7814971A1D00495BBB /* cow.caf */; };
+		B39F1A7D14971A1D00495BBB /* cat.caf in Resources */ = {isa = PBXBuildFile; fileRef = B39F1A7914971A1D00495BBB /* cat.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B39F1A221496F44D00495BBB /* HereWowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HereWowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39F1A2E1496F44D00495BBB /* HereWowDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HereWowDemo-Info.plist"; sourceTree = "<group>"; };
+		B39F1A301496F44D00495BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B39F1A321496F44D00495BBB /* HereWowDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HereWowDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B39F1A331496F44D00495BBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B39F1A351496F44D00495BBB /* HereWowDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HereWowDemoAppDelegate.h; sourceTree = "<group>"; };
+		B39F1A361496F44D00495BBB /* HereWowDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HereWowDemoAppDelegate.m; sourceTree = "<group>"; };
+		B39F1A391496F44D00495BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B39F1A3B1496F44D00495BBB /* HereWowDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HereWowDemoViewController.h; sourceTree = "<group>"; };
+		B39F1A3C1496F44D00495BBB /* HereWowDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HereWowDemoViewController.m; sourceTree = "<group>"; };
+		B39F1A3F1496F44D00495BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HereWowDemoViewController.xib; sourceTree = "<group>"; };
+		B39F1A5114970E2300495BBB /* libUAirship-1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUAirship-1.1.1.a"; path = "../../Airship/libUAirship-1.1.1.a"; sourceTree = "<group>"; };
+		B39F1A57149715DB00495BBB /* checkConfig.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = checkConfig.sh; sourceTree = "<group>"; };
+		B39F1A59149715F400495BBB /* AirshipConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AirshipConfig.plist; sourceTree = "<group>"; };
+		B39F1A5B1497162100495BBB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B39F1A5C1497162100495BBB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B39F1A5D1497162100495BBB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B39F1A5E1497162100495BBB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B39F1A5F1497162100495BBB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B39F1A601497162100495BBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B39F1A611497162100495BBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B39F1A621497162100495BBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B39F1A631497162100495BBB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B39F1A641497162100495BBB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B39F1A651497162100495BBB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B39F1A661497162100495BBB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B39F1A671497162100495BBB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B39F1A7614971A1D00495BBB /* pig.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig.caf; sourceTree = "<group>"; };
+		B39F1A7714971A1D00495BBB /* frog.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = frog.caf; sourceTree = "<group>"; };
+		B39F1A7814971A1D00495BBB /* cow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow.caf; sourceTree = "<group>"; };
+		B39F1A7914971A1D00495BBB /* cat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39F1A1F1496F44D00495BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39F1A5214970E2300495BBB /* libUAirship-1.1.1.a in Frameworks */,
+				B39F1A681497162100495BBB /* libz.dylib in Frameworks */,
+				B39F1A691497162100495BBB /* libsqlite3.dylib in Frameworks */,
+				B39F1A6A1497162100495BBB /* SystemConfiguration.framework in Frameworks */,
+				B39F1A6B1497162100495BBB /* MobileCoreServices.framework in Frameworks */,
+				B39F1A6C1497162100495BBB /* CFNetwork.framework in Frameworks */,
+				B39F1A6D1497162100495BBB /* UIKit.framework in Frameworks */,
+				B39F1A6E1497162100495BBB /* Foundation.framework in Frameworks */,
+				B39F1A6F1497162100495BBB /* CoreGraphics.framework in Frameworks */,
+				B39F1A701497162100495BBB /* StoreKit.framework in Frameworks */,
+				B39F1A711497162100495BBB /* Security.framework in Frameworks */,
+				B39F1A721497162100495BBB /* CoreTelephony.framework in Frameworks */,
+				B39F1A731497162100495BBB /* AudioToolbox.framework in Frameworks */,
+				B39F1A741497162100495BBB /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B39F1A171496F44D00495BBB = {
+			isa = PBXGroup;
+			children = (
+				B39F1A5014970DF800495BBB /* Support */,
+				B39F1A2C1496F44D00495BBB /* HereWowDemo */,
+				B39F1A75149719E800495BBB /* Resources */,
+				B39F1A251496F44D00495BBB /* Frameworks */,
+				B39F1A231496F44D00495BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B39F1A231496F44D00495BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39F1A221496F44D00495BBB /* HereWowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B39F1A251496F44D00495BBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B39F1A5B1497162100495BBB /* libz.dylib */,
+				B39F1A5C1497162100495BBB /* libsqlite3.dylib */,
+				B39F1A5D1497162100495BBB /* SystemConfiguration.framework */,
+				B39F1A5E1497162100495BBB /* MobileCoreServices.framework */,
+				B39F1A5F1497162100495BBB /* CFNetwork.framework */,
+				B39F1A601497162100495BBB /* UIKit.framework */,
+				B39F1A611497162100495BBB /* Foundation.framework */,
+				B39F1A621497162100495BBB /* CoreGraphics.framework */,
+				B39F1A631497162100495BBB /* StoreKit.framework */,
+				B39F1A641497162100495BBB /* Security.framework */,
+				B39F1A651497162100495BBB /* CoreTelephony.framework */,
+				B39F1A661497162100495BBB /* AudioToolbox.framework */,
+				B39F1A671497162100495BBB /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B39F1A2C1496F44D00495BBB /* HereWowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B39F1A351496F44D00495BBB /* HereWowDemoAppDelegate.h */,
+				B39F1A361496F44D00495BBB /* HereWowDemoAppDelegate.m */,
+				B39F1A381496F44D00495BBB /* MainWindow.xib */,
+				B39F1A3B1496F44D00495BBB /* HereWowDemoViewController.h */,
+				B39F1A3C1496F44D00495BBB /* HereWowDemoViewController.m */,
+				B39F1A3E1496F44D00495BBB /* HereWowDemoViewController.xib */,
+				B39F1A2D1496F44D00495BBB /* Supporting Files */,
+			);
+			path = HereWowDemo;
+			sourceTree = "<group>";
+		};
+		B39F1A2D1496F44D00495BBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B39F1A59149715F400495BBB /* AirshipConfig.plist */,
+				B39F1A2E1496F44D00495BBB /* HereWowDemo-Info.plist */,
+				B39F1A2F1496F44D00495BBB /* InfoPlist.strings */,
+				B39F1A321496F44D00495BBB /* HereWowDemo-Prefix.pch */,
+				B39F1A331496F44D00495BBB /* main.m */,
+				B39F1A57149715DB00495BBB /* checkConfig.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B39F1A5014970DF800495BBB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B39F1A5114970E2300495BBB /* libUAirship-1.1.1.a */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		B39F1A75149719E800495BBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B39F1A7614971A1D00495BBB /* pig.caf */,
+				B39F1A7714971A1D00495BBB /* frog.caf */,
+				B39F1A7814971A1D00495BBB /* cow.caf */,
+				B39F1A7914971A1D00495BBB /* cat.caf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39F1A211496F44D00495BBB /* HereWowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39F1A431496F44D00495BBB /* Build configuration list for PBXNativeTarget "HereWowDemo" */;
+			buildPhases = (
+				B39F1A1E1496F44D00495BBB /* Sources */,
+				B39F1A1F1496F44D00495BBB /* Frameworks */,
+				B39F1A201496F44D00495BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HereWowDemo;
+			productName = HereWowDemo;
+			productReference = B39F1A221496F44D00495BBB /* HereWowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B39F1A191496F44D00495BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = self;
+			};
+			buildConfigurationList = B39F1A1C1496F44D00495BBB /* Build configuration list for PBXProject "HereWowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B39F1A171496F44D00495BBB;
+			productRefGroup = B39F1A231496F44D00495BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B39F1A211496F44D00495BBB /* HereWowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39F1A201496F44D00495BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39F1A311496F44D00495BBB /* InfoPlist.strings in Resources */,
+				B39F1A3A1496F44D00495BBB /* MainWindow.xib in Resources */,
+				B39F1A401496F44D00495BBB /* HereWowDemoViewController.xib in Resources */,
+				B39F1A58149715DB00495BBB /* checkConfig.sh in Resources */,
+				B39F1A5A149715F400495BBB /* AirshipConfig.plist in Resources */,
+				B39F1A7A14971A1D00495BBB /* pig.caf in Resources */,
+				B39F1A7B14971A1D00495BBB /* frog.caf in Resources */,
+				B39F1A7C14971A1D00495BBB /* cow.caf in Resources */,
+				B39F1A7D14971A1D00495BBB /* cat.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39F1A1E1496F44D00495BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39F1A341496F44D00495BBB /* main.m in Sources */,
+				B39F1A371496F44D00495BBB /* HereWowDemoAppDelegate.m in Sources */,
+				B39F1A3D1496F44D00495BBB /* HereWowDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B39F1A2F1496F44D00495BBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39F1A301496F44D00495BBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B39F1A381496F44D00495BBB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39F1A391496F44D00495BBB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B39F1A3E1496F44D00495BBB /* HereWowDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39F1A3F1496F44D00495BBB /* en */,
+			);
+			name = HereWowDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39F1A411496F44D00495BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B39F1A421496F44D00495BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B39F1A441496F44D00495BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobiquity, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobiquity, Inc.";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereWowDemo/HereWowDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"../../Airship/**\"";
+				INFOPLIST_FILE = "HereWowDemo/HereWowDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Airship\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "54BBDFF8-A83F-4E2C-AB6C-20CC1EBC21BA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "54BBDFF8-A83F-4E2C-AB6C-20CC1EBC21BA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B39F1A451496F44D00495BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobiquity, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mobiquity, Inc.";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HereWowDemo/HereWowDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"../../Airship/**\"";
+				INFOPLIST_FILE = "HereWowDemo/HereWowDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Airship\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "54BBDFF8-A83F-4E2C-AB6C-20CC1EBC21BA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "54BBDFF8-A83F-4E2C-AB6C-20CC1EBC21BA";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39F1A1C1496F44D00495BBB /* Build configuration list for PBXProject "HereWowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39F1A411496F44D00495BBB /* Debug */,
+				B39F1A421496F44D00495BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39F1A431496F44D00495BBB /* Build configuration list for PBXNativeTarget "HereWowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39F1A441496F44D00495BBB /* Debug */,
+				B39F1A451496F44D00495BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B39F1A191496F44D00495BBB /* Project object */;
+}
